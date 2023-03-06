@@ -1,0 +1,84 @@
+body{
+    background-color: lime;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    color: red;
+    text-align: center;
+}
+.small{
+    width: 50px;
+    height: 50px;
+}
+.gray{
+    color: rgb(80, 80, 80);
+}
+#slot1{
+    background-color: lightblue;
+    height: 410px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+#slot2{
+    background-color: lightblue;
+    height: 410px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+#slot3{
+    background-color: lightblue;
+    height: 410px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+#img1{
+    width: 80px;
+    height: 80px;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+#img2{
+    width: 80px;
+    height: 80px;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+#img3{
+    width: 80px;
+    height: 80px;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+#spin{
+    position: absolute;
+    font-size: 60px;
+    height: 100px;
+    width: 150px;
+    top: 290px;
+    left: 650px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+}
+#score{
+    position: absolute;
+    left: 900px;
+    top: 290px;
+    font-size: 30px;
+}
+#totscore{
+    position: absolute;
+    left: 900px;
+    top: 350px;
+    font-size: 30px;
+}

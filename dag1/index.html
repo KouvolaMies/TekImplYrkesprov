@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>fruit spin game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/main.css">
+    </head>
+    <body>
+        <h1 id="title">Fruit Spin Game</h1>
+        <table class="gray">
+            <h2 class="gray">Fruit Points</h2>
+            <tr>
+                <td><img src="assets/images/apple.png" class="small"> = 10 points</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/banana.png" class="small"> = 20 points</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/lemon.png" class="small"> = 30 points</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/mango.png" class="small"> = 40 points</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/orange.png" class="small"> = 50 points</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/pineapple.png" class="small"> = 100 points</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/crown.png" class="small"> = 250 points</td>
+            </tr>
+        </table>
+
+        <div id="slot1"><img id="img1" src="assets/images/apple.png"></div>
+        <div id="slot2"><img id="img2" src="assets/images/apple.png"></div>
+        <div id="slot3"><img id="img3" src="assets/images/apple.png"></div>
+        <button onclick="fruitPicker()" id="spin">spin</button>
+        <div id="score">current score = 0</div>
+        <div id="totscore">total score = 0</div>
+        
+        <script src="assets/main.js"></script>
+    </body>
+</html>
