@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lotto Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/main.css">
+    </head>
+    <body>
+        <div>
+        <h2>Choose game</h2>
+        <select id="game" class="center2" onchange="gameCheck()">
+            <option value="1">Lotto</option>
+            <option value="2">EuroJackpot</option>
+            <option value="3">VikingLotto</option>
+            <option value="4">Keno</option>
+        </select>
+        <h2>How Many Numbers Do You Want</h2>
+        <input type="number" max="7" min="1" class="center" id="numbers">
+        <h2>How many extra Numbers Do You Want</h2>
+        <input type="number" max="1" min="0" class="center" id="extranumbers">
+        <h2>How many rows do you want</h2>
+        <input type="number" max="5" min="1" class="center3" id="rows"><button type="button" id="genbutton" onclick="gameCheck()">Generate Numbers</button>
+        <br><br>
+        <div id="dis1"></div>
+        <br>
+        <div id="dis2"></div>
+
+        <script src="assets/main.js"></script>
+        </div>
+    </body>
+</html>

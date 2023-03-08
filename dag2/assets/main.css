@@ -1,0 +1,38 @@
+body{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+}
+.center{
+    margin-left: 600px;
+}
+.center2{
+    margin-left: 625px;
+}
+.center3{
+    margin-left: 518px;
+}
+#genbutton{
+    margin-left: 50px;
+    border: none;
+    background-color: rgb(214, 0, 0);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+#dis1{
+    background-color: white;
+    border-radius: 10px;
+    width: 1330px;
+    height: 90px;
+    padding: 10px;
+}
+#dis2{
+    background-color: white;
+    border-radius: 10px;
+    width: 1330px;
+    height: 90px;
+    padding: 10px;
+}
