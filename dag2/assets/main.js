@@ -53,6 +53,9 @@ function lotto(){
             extranums[i] = randomnum;
             extranums.length = extranumbers;
         }
+        if(extranumbers == 0){
+            extranums.length = 0;
+        }
         if(a == 1){
             document.getElementById("dis1").innerHTML = nums + "<br>";
             document.getElementById("dis2").innerHTML = extranums + "<br>";
@@ -80,6 +83,9 @@ function euroJackpot(){
             randomnum = Math.floor(Math.random() * (50 - 1 + 1) + 1);
             extranums[i] = randomnum;
             extranums.length = extranumbers;
+        }
+        if(extranumbers == 0){
+            extranums.length = 0;
         }
         if(a == 1){
             document.getElementById("dis1").innerHTML = nums + "<br>";
@@ -112,6 +118,9 @@ function vikingLotto(){
             randomnum = Math.floor(Math.random() * (48 - 1 + 1) + 1);
             extranums[i] = randomnum;
             extranums.length = extranumbers;
+        }
+        if(extranumbers == 0){
+            extranums.length = 0;
         }
         if(a == 1){
             document.getElementById("dis1").innerHTML = nums + "<br>";
